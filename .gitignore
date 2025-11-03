@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Secrets
+.env
+
+# Data (我们不希望把克隆的仓库和数据库上传到 git)
+/repos/
+/chroma_db/
