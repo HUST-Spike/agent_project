@@ -11,7 +11,7 @@ from core.vector_store import load_vector_store, get_retriever
 # 这是 RAG 的“灵魂”，它指导 LLM 如何利用上下文
 RAG_PROMPT_TEMPLATE = """
 你是一个资深的 Python 程序员和代码库助手。
-请根据下面提供的 [上下文代码](Context)，用中文、清晰、简洁地回答 [问题](Question)。
+请根据下面提供的 [上下文代码](Context)，用中文清晰地回答 [问题](Question)。
 只使用 [上下文代码] 中的信息来回答问题。如果你在上下文中找不到答案，请明确地说：“根据提供的上下文，我无法回答这个问题。”
 
 [上下文代码]:

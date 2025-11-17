@@ -2,7 +2,7 @@ from typing import List
 from langchain_core.documents import Document
 from langchain_core.vectorstores import VectorStore
 from langchain_core.retrievers import BaseRetriever
-from langchain_community.vectorstores import Chroma
+from langchain_chroma import Chroma
 
 # 导入我们自己的 Embedder
 from core.embedder import get_embedder
